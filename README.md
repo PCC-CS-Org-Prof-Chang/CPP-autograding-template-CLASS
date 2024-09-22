@@ -1,4 +1,4 @@
-# autograding-example-cpp-catch
+# autograding-example-cpp-catch with class
 
 
 ## Full-Name-Of-Student
