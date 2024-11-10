@@ -15,15 +15,15 @@ Calculator::~Calculator()
 }
 
 int Calculator::add(int a, int b) {
-    return 0;
+    return a+b;
 }
 
 int Calculator::subtract(int a, int b) {
-    return 0;
+    return a-b;
 }
 
 int Calculator::mul(int a, int b) {
-    return 0;
+    return a*b;
 }
 
 int Calculator::divide(int a, int b) {

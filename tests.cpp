@@ -8,20 +8,29 @@
 #include "student.hpp" // student implementations
 
 // =====================
-// tests for exercise 1
+// tests for exercise Add, Subtract, Divide, multiply
 // ---------------------
 
-TEST_CASE("Ex1", "[example]")
+TEST_CASE("Add", "[Calculator Class Test]")
 {
-    REQUIRE(add(1,1) == 2);
+    Calculator calc;
+    REQUIRE(calc.add(1,1) == 2);
 }
 
-// =====================
-// tests for exercise 2
-// ---------------------
-
-TEST_CASE("Ex2", "[example]")
+TEST_CASE("subtract", "[Calculator Class Test]")
 {
-    REQUIRE(mul(3,3) == 9);
+    Calculator calc;
+    REQUIRE(calc.subtract(3,1) == 2);
 }
 
+TEST_CASE("multiply", "[Calculator Class Test]")
+{
+    Calculator calc;
+    REQUIRE(calc.mul(3,2) == 6);
+}
+
+TEST_CASE("divide", "[Calculator Class Test]")
+{
+    Calculator calc;
+    REQUIRE(calc.divide(4,2) == 2);
+}
